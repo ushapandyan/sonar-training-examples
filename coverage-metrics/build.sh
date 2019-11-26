@@ -3,7 +3,7 @@
 # Load common environment
 ./sqlib.sh
 
-testFile="src/test/java/coverage_metrics/CoverageMetricsTest.java"
+testFile="${WORKSPACE}/coverage-metrics/src/test/java/coverage_metrics/CoverageMetricsTest.java"
 
 if [ "$1" = "-h" ] || [ "$1" = "-?" ]; then
 	echo "Usage: $0 [-h|-?] [1|2|all] [<scanner-properties>]"
