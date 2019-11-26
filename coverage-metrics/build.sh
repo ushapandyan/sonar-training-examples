@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Load common environment
-. ../sqlib.sh
+./sqlib.sh
 
 testFile="src/test/java/coverage_metrics/CoverageMetricsTest.java"
 
